@@ -1,0 +1,16 @@
+[tool.robotpy]
+
+robotpy_version = "2026.2.2"
+
+components = [
+    "commands2",   # REQUIRED for RunCommand, scheduler, etc.
+    # "cscore",    # only if using cameras
+    # "apriltag",  # only if doing your own vision
+    "sim",       # useful for testing
+]
+
+requires = [
+    "robotpy-rev",
+    "robotpy-navx",
+    "robotpy-ctre",
+]
